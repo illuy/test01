@@ -18,12 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <nav>
-      <Link href="/">HOME</Link>
-          <Link href="/SSG">SSG</Link>
-          <Link href="/ISR">ISR</Link>
-          <Link href="/SSR">SSR</Link>
-          <Link href="/CSR">CSR</Link>
+      <nav className="flex flex-row justify-center">
+          <Link className="px-4 py-1 hover:bg-sky-300" href="/">HOME</Link>
+          <Link className="px-4 py-1 hover:bg-sky-300" href="/SSG">SSG</Link>
+          <Link className="px-4 py-1 hover:bg-sky-300" href="/ISR">ISR</Link>
+          <Link className="px-4 py-1 hover:bg-sky-300" href="/SSR">SSR</Link> 
+          <Link className="px-4 py-1 hover:bg-sky-300" href="/CSR">CSR</Link>
         </nav>
         {children}
         </body>

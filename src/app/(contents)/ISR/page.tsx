@@ -9,7 +9,8 @@ const ISRPage =async  () => {
         });
         const data: CatFact = await response.json();
   return (
-    <div>
+    <div className='min-h-screen flex flex-col justify-center items-center'>
+        <h2 className='text-2xl'>ISR Page</h2>
         <h3>Cat Fact : {data.fact}</h3>
     </div>
   )

@@ -24,7 +24,8 @@ const CSRPage = () => {
   }
 
   return (
-    <div>
+    <div className='min-h-screen flex flex-col justify-center items-center'>
+      <h2 className='text-2xl'>CSR Page</h2>
       <h3>Cat Fact : {data.fact}</h3>
     </div>
   );
