@@ -20,7 +20,9 @@ const CSRPage = () => {
   }, []); // 빈 배열을 전달하여 한 번만 실행되도록 함
 
   if (!data) {
-    return <div>로딩중...</div>;
+    return <div className='min-h-screen flex flex-col justify-center items-center'>
+      <h3>로딩중...</h3>
+      </div>;
   }
 
   return (
